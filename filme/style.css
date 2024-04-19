@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex; 
+    background-color: rgb(255, 255, 255);
+    padding: 10px 70px; 
+    justify-content: space-between;
+}
+   
+header ul{
+    display: flex;
+    gap: 40px;
+}
+header li{
+    list-style: none;
+}
+section{
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.meio img{
+   object-fit: cover;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px  rgba(255, 0, 0, 0.438);
+}
+
+.meio{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(155, 163, 33, 0.61);
+    border-radius: 40px;
+}
